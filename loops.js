@@ -16,7 +16,7 @@ function whileLoop(n) {
   return "done";
 }
 
-function doWhileLoop (array) {
+function doWhileLoop(array) {
   do {
     Math.random() >= 0.5
 } while (array.length > 0 && maybeTrue());
