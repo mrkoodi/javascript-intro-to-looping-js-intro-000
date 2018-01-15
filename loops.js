@@ -20,7 +20,7 @@ function whileLoop(n) {
 function doWhileLoop (array) {
   do {
     function maybeTrue() {
-  return Math.random() >= 0.5
-} wjile ();
+    return Math.random() >= 0.5
+} while ();
   }
 }
