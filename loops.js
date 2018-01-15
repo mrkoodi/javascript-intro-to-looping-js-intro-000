@@ -1,7 +1,11 @@
 function forLoop(array) {
   for (var i = 0; i < array.length; i++) {
-    array[i]
+    if (i === 1) {
+        array.push("Iam 1 strange loop");
+    }
   }
+
+    return array[i];
 }
 
 function whileLoop(n) {
